@@ -1,0 +1,32 @@
+div#content * {
+    display: inline;
+}
+
+div#content img {
+    vertical-align: top;
+    float: left;
+    margin-right: 5px;
+    clear:both;
+}
+
+div#content p{
+    /*margin-left: 0px;*/
+    overflow:auto;
+    display:block;
+
+}
+div#content p span {
+    display: block;
+    clear:both;
+}
+
+div#content p span:after {
+    content:"\a";
+    white-space: pre;
+}
+
+div#content-footer * {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
